@@ -1,4 +1,4 @@
 azure-iot-device
 python-dotenv
-colour
 rpi_ws281x
+adafruit-circuitpython-neopixel
