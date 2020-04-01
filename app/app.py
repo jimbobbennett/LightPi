@@ -71,7 +71,6 @@ def set_color_from_frame(frame):
             mapped_colors = map(lambda x: HexColor(x), frame['colors']) 
             light_controller.set_multiple_colors(list(mapped_colors))
 
-        print('Color set from frame')
     except Exception as e:
         print('Error setting colors:', e)
 
